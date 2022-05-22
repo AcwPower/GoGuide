@@ -1,0 +1,25 @@
+创建好go文件后直接执行go build xxx.go 就可以创建编译文件
+
+
+
+git相关
+mkdir Git_home
+cd Git_home/
+git init
+git remote add origin https://github.com/AcwPower/GoGuide.git
+git pull origin main  从远端仓库下拉
+git add .
+git commit -m "文件描述"
+git push origin main
+
+
+$git pull origin main –allow-unrelated-histories
+
+
+
+git remote rm origin 删除已连接的远程仓库
+git rm -rf --cached . 删除本地缓存
+git config --global core.autocrlf false 禁用换行
+
+
+输入git add .（.表示所有文件）或者git add + 文件名（作用：将文件保存到缓存区）
