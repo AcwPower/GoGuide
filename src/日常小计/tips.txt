@@ -8,6 +8,8 @@ cd Git_home/
 git init
 git remote add origin https://github.com/AcwPower/GoGuide.git
 git pull origin main  从远端仓库下拉
+
+
 git add .
 git commit -m "文件描述"
 git push origin main
